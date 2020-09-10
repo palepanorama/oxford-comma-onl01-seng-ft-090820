@@ -1,5 +1,6 @@
 array = ["fiddleheads", "okra", "kohlrabi"]
 
+
 def oxford_comma(array)
   if array.length == 1
     return array[0]
@@ -8,7 +9,6 @@ def oxford_comma(array)
   elsif array.length >= 3
     array[-1] = "and #{array[-1]}"
     return array.join(", ")
-end
+  end
 end
 
-puts oxford_comma(array)

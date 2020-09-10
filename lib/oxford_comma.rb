@@ -9,3 +9,4 @@ def oxford_comma
     elsif array.length >= 3
     return array.join(,)
 end
+end

@@ -1,1 +1,3 @@
-array = 
+array = ["fiddleheads", "okra", "kohlrabi"]
+
+def 
